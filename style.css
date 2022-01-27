@@ -1,0 +1,87 @@
+
+input {
+    margin: 0px !important;
+}
+
+button {
+    margin: 12px !important;
+}
+
+.head {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 100px;
+}
+
+.input {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 300px;
+    height: 150px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: grey;
+    border-radius: 20px;
+}
+
+.noteArea {
+    display: flex; 
+    flex-wrap: wrap;
+}
+
+.card {
+    width: 300px;
+    height: 150px;
+    background-color:white;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    border-width: 1px;
+    border-style: solid;
+    border-color: grey;
+    border-radius: 20px;
+}
+
+.text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.title{
+    font-size: 20;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.note{
+    font-size: 25;
+    margin-bottom: 25px;
+}
+
+.button{
+    display: flex;
+    justify-content: flex-end;
+}
+
+button {
+    background-color: transparent;
+    border-width: 0px;
+    margin: 4px;
+}
+
+input{
+    border-width: 0px;
+    margin: 10px;
+    text-align: center;
+    height: 50px;
+    width: 200px;
+}
+
+.extraMarginTop20{
+    margin-top: 20px;
+}
